@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration-style: none;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+@media (max-width: 375px) {
+  body {
+    text-align: center;
+    background-color: #ff7a7a;
+    background-image: url("images/bg-intro-mobile.png");
+  }
+}
+
+form input {
+  width: 100%;
+  color: #b9b6d3;
+}
+/*# sourceMappingURL=index.css.map */

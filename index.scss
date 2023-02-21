@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import 'variables';
+@import 'reset';
+@import 'breakpoints';
+
+
+body {
+    font-family: $font-primary;
+    @include sm {
+        text-align: center;
+        background-color: $primary-red;
+        background-image: url('images/bg-intro-mobile.png');
+    }
+}
+
+
+form {
+    input {
+        width: 100%;
+        color: $grayish-blue;
+    }
+}
+
+
+
