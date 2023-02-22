@@ -14,7 +14,7 @@ body {
   height: 100%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   body {
     display: flex;
     flex-direction: column;
@@ -23,7 +23,7 @@ body {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   div.container {
     background-image: url("/images/bg-intro-mobile.png");
     background-attachment: fixed;
@@ -37,7 +37,7 @@ body {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   main {
     margin-top: 4rem;
     display: flex;
@@ -60,7 +60,7 @@ p#tryout span {
   font-weight: 600;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   p#tryout {
     padding: 1.25rem 3rem;
     margin-top: 1.25rem;
@@ -87,7 +87,7 @@ form input {
   padding: 1rem;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   form input {
     height: auto;
     margin-bottom: 1rem;
