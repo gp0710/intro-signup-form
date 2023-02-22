@@ -6,19 +6,113 @@
 }
 
 body {
+  background-color: #ff7a7a;
   font-family: "Poppins";
+  font-size: 16px;
+  color: #ffffff;
+  width: -webkit-fill-available;
+  height: 100%;
 }
 
 @media (max-width: 375px) {
   body {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    background-color: #ff7a7a;
-    background-image: url("images/bg-intro-mobile.png");
+    row-gap: 2rem;
   }
 }
 
+@media (max-width: 375px) {
+  div.container {
+    background-image: url("/images/bg-intro-mobile.png");
+    background-attachment: fixed;
+    background-size: cover;
+    row-gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    padding: 1.5rem;
+    padding-bottom: 4rem;
+  }
+}
+
+@media (max-width: 375px) {
+  main {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.9rem;
+  }
+  main h1 {
+    font-size: 1.7rem;
+  }
+}
+
+p#tryout {
+  font-weight: 200;
+  border-radius: 0.5rem;
+  background-color: #6055a5;
+  box-shadow: 0px 0.5rem rgba(62, 60, 73, 0.3);
+}
+
+p#tryout span {
+  font-weight: 600;
+}
+
+@media (max-width: 375px) {
+  p#tryout {
+    padding: 1.25rem 3rem;
+    margin-top: 1.25rem;
+  }
+}
+
+form {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: 0px 0.5rem rgba(62, 60, 73, 0.3);
+}
+
 form input {
+  font-weight: 700;
+  font-family: "Poppins";
+  font-size: 16px;
+  border: 1px solid #b9b6d3;
+  padding: 0;
+  margin: 0;
+  width: -webkit-fill-available;
+  height: auto;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+@media (max-width: 375px) {
+  form input {
+    height: auto;
+    margin-bottom: 1rem;
+  }
+}
+
+form input[type="submit"] {
+  border: none;
+  background-color: #38cc8c;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 0.5rem;
   width: 100%;
+  border-bottom: 3px solid #06c673;
+}
+
+form p {
   color: #b9b6d3;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+form p span {
+  color: #ff7a7a;
+  font-weight: 600;
 }
 /*# sourceMappingURL=index.css.map */

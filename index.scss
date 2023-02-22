@@ -2,24 +2,105 @@
 @import 'variables';
 @import 'reset';
 @import 'breakpoints';
+@import 'mixins';
 
 
 body {
+    background-color: $primary-red;
     font-family: $font-primary;
+    font-size: $font-size;
+    color: #ffffff;
+    width: -webkit-fill-available;
+    height: 100%;
     @include sm {
+        @include flex-display-col;
         text-align: center;
-        background-color: $primary-red;
-        background-image: url('images/bg-intro-mobile.png');
+        row-gap: 2rem;
     }
 }
 
+div.container {
+    @include sm {
+        background-image: $bg_img_mobile;
+        background-attachment: fixed;
+        background-size: cover;
+        row-gap: 2rem;
+        display: flex;
+        flex-direction: column;
+        max-height: 100%;
+        padding: 1.5rem;
+        padding-bottom: 4rem;
+    }
+}
+
+main {
+    @include sm {
+        margin-top: 4rem;
+        @include flex-display-col;
+        h1 {
+            font-size: 1.7rem;
+        }
+        row-gap: 0.9rem;
+    }
+}
+
+p#tryout {
+    font-weight: 200;
+    border-radius: 0.5rem;
+    background-color: $accent;
+    @include shadow-box;
+    span {
+        font-weight: 600;
+    }
+    @include sm {
+        padding: 1.25rem 3rem;
+        margin-top: 1.25rem;
+    }
+
+}
 
 form {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    @include shadow-box;
     input {
+        font-weight: 700;
+        font-family: $font-primary;
+        font-size: $font-size;
+        border: 1px solid $grayish-blue;
+        padding: 0;
+        margin: 0;
+        width: -webkit-fill-available;
+        height: auto;
+        margin-bottom: 1rem;
+        padding: 1rem;
+
+        @include sm {
+            height: auto;
+            margin-bottom: 1rem;
+        }
+    }
+
+    input[type="submit"] {
+        border: none;
+        background-color: $primary-green;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-weight: 500;
+        border-radius: 0.5rem;
         width: 100%;
+        border-bottom: 3px solid hsl(154, 94%, 40%)
+    }   
+    
+
+    p {
         color: $grayish-blue;
+        font-size: 0.8rem;
+        font-weight: 500;
+        span {
+            color: $primary-red;
+            font-weight: 600;
+        }
     }
 }
-
-
-
