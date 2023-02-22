@@ -21,7 +21,7 @@ body {
 
 div.container {
     @include sm {
-        background-image: $bg_img_mobile;
+        background-image: url("/images/bg-intro-mobile.png");
         background-attachment: fixed;
         background-size: cover;
         row-gap: 2rem;
