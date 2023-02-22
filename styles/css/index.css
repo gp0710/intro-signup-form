@@ -25,7 +25,7 @@ body {
 
 @media (max-width: 768px) {
   div.container {
-    background-image: url("/images/bg-intro-mobile.png");
+    background-image: url("./images/bg-intro-mobile.png");
     background-attachment: fixed;
     background-size: cover;
     row-gap: 2rem;
