@@ -26,10 +26,8 @@ Users should be able to:
   - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say *"Looks like this is not an email"*
 
 ### Screenshot
-
-![](./screenshot.jpg)
-
-
+![Screen Shot 2023-02-22 at 10 28 51 PM](https://user-images.githubusercontent.com/75948442/220815264-c498f38c-bb1b-483a-b9f9-78efef10cb46.png)
+![Screen Shot 2023-02-22 at 10 29 18 PM](https://user-images.githubusercontent.com/75948442/220815330-804dd1de-0b91-458f-a41c-da5739033312.png)
 
 ### Links
 
@@ -61,7 +59,5 @@ For some reason, my background images are not showing in github pages. I also ha
 Since I'm up to speed on SCSS, I might build my next frontend project on Webpack, or React. 
 
 ### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 - [Multia Media Queries SCSS](https://stackoverflow.com/questions/42160426/multiple-media-queries-issue-when-using-sass-mixin-and-content) - There are not a lot of SCSS resources compared to CSS, however this solution explains how to utilize media queries in SCSS.
  
