@@ -32,6 +32,15 @@ div.container {
         padding: 1.5rem;
         padding-bottom: 4rem;
     }
+
+    @include lg {
+        background-image: url("/images/bg-intro-desktop.png");
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(11, 1fr);
+        row-gap: 0.5rem;
+        column-gap: 0.5rem;
+    }
 }
 
 main {
@@ -42,6 +51,21 @@ main {
             font-size: 1.7rem;
         }
         row-gap: 0.9rem;
+    }
+
+    @include lg {
+        grid-column: 2 / 7;
+        grid-row: 5 / 9;
+    }
+
+    @include xl {
+        h1 {
+            font-size: 3em;
+        }
+        
+        p {
+            font-size: 1.2em;
+        }
     }
 }
 
@@ -57,6 +81,14 @@ p#tryout {
         padding: 1.25rem 3rem;
         margin-top: 1.25rem;
     }
+    @include lg {
+        grid-column: 8 / 12;
+        grid-row: 3 / 4;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+
+    }
 
 }
 
@@ -65,6 +97,10 @@ form {
     border-radius: 0.5rem;
     padding: 1.5rem;
     @include shadow-box;
+    @include lg {
+        grid-row: 4 / 11;
+        grid-column: 8 / 12;
+    }
     input {
         font-weight: 700;
         font-family: $font-primary;
