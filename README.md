@@ -60,4 +60,5 @@ Since I'm up to speed on SCSS, I might build my next frontend project on Webpack
 
 ### Useful resources
 - [Multia Media Queries SCSS](https://stackoverflow.com/questions/42160426/multiple-media-queries-issue-when-using-sass-mixin-and-content) - There are not a lot of SCSS resources compared to CSS, however this solution explains how to utilize media queries in SCSS.
+- [SCSS Cheatsheet](https://devhints.io/sass) - Good reference guide for quickly adding mixins, nesting, map, etc,.
  
