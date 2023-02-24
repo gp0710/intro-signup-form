@@ -1,4 +1,4 @@
-# Introductory Offer component with Sign-up Form
+# Introductory Offer Sign-up Form w/ JS Form Validation
 
 ## Table of contents
 
