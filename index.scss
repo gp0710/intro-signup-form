@@ -110,8 +110,9 @@ form {
         margin: 0;
         width: -webkit-fill-available;
         height: auto;
-        margin-bottom: 1rem;
+        margin: 0.5rem 0;
         padding: 1rem;
+        border-radius: 0.5rem;
 
         @include sm {
             height: auto;
@@ -129,7 +130,18 @@ form {
         width: 100%;
         border-bottom: 3px solid hsl(154, 94%, 40%)
     }   
-    
+
+    p.error {
+        text-align: right;
+        color: $primary-red;
+        font-style: italic;
+        visibility: hidden;
+    }
+    .red {
+        outline: 2px solid $primary-red;
+        color: $primary-red;
+        font-weight: 200;
+    }
 
     p {
         color: $grayish-blue;

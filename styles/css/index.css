@@ -128,8 +128,9 @@ form input {
   margin: 0;
   width: -webkit-fill-available;
   height: auto;
-  margin-bottom: 1rem;
+  margin: 0.5rem 0;
   padding: 1rem;
+  border-radius: 0.5rem;
 }
 
 @media (max-width: 768px) {
@@ -148,6 +149,19 @@ form input[type="submit"] {
   border-radius: 0.5rem;
   width: 100%;
   border-bottom: 3px solid #06c673;
+}
+
+form p.error {
+  text-align: right;
+  color: #ff7a7a;
+  font-style: italic;
+  visibility: hidden;
+}
+
+form .red {
+  outline: 2px solid #ff7a7a;
+  color: #ff7a7a;
+  font-weight: 200;
 }
 
 form p {

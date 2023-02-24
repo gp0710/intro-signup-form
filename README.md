@@ -61,7 +61,5 @@ For some reason, my background images are not showing in github pages. I also ha
 Since I'm up to speed on SCSS, I might build my next frontend project on Webpack, or React. 
 
 ### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 - [Multia Media Queries SCSS](https://stackoverflow.com/questions/42160426/multiple-media-queries-issue-when-using-sass-mixin-and-content) - There are not a lot of SCSS resources compared to CSS, however this solution explains how to utilize media queries in SCSS.
  

@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->  
   <title>Intro component with sign up form</title>
   <link rel="stylesheet" href="./styles/css/index.css">
+  <script src="./main.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -16,11 +17,20 @@
       </main>
 
       <p id="tryout"><span>Try it free 7 days </span>  then $20/mo. thereafter</p>
-      <form>
+      <form name="signup-form" action="/" method="GET">
         <input type="text" id="fname" name="fname" placeholder="First Name"><br>
+        <p class="error" id="form-fname">First Name cannot be empty</p>
+        
+
         <input type="text" id="lname" name="lname" placeholder="Last Name"><br>
+        <p class="error" id="form-lname">Last Name cannot be empty</p>
+
         <input type="email" id="email" name="email" placeholder="Email Address"><br>
+        <p class="error" id="form-email">Looks like this is not an email</p>
+
         <input type="password" id="password" name="password" placeholder="Password"><br>
+        <p class="error" id="form-password">Password cannot be empty</p>
+
         <input type="submit" id="submit" value="claim your free trial">
         <p>By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
       </form>
