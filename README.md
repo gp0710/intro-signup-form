@@ -43,12 +43,17 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- JavaScript
 
 ### What I learned
 
 I finally started using SCSS. It was confusing at first, but it started to become easier as I kept going at it. It really makes writing CSS easier since it compiles into CSS for you. 
 
 In this project, I've also incorporated CSS Grid for larger screens.
+
+I utilized JavaScript form validation, rather than HTML form validation. 
+When required is added to an input element in HTML, the browser automatically validates the form for you. 
+
 
 ### Continued development
 
